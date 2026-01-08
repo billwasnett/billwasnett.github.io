@@ -1,4 +1,4 @@
-
+```css
 body {
   margin: 0;
   background-image: url('wp.jpg');
@@ -7,19 +7,18 @@ body {
   background-size: 100% 100%;
 }
 
-
 body::before {
   content: "";
   position: fixed;
   inset: 0;
-
-  border: 400px solid transparent; 
-  border-image: url("assets/bill1.jpg") 30 repeat;
-
-  pointer-events: none; 
+  border-style: solid;
+  border-width: 60px;
+  border-image-source: url("bill1.jpg");
+  border-image-slice: 80;
+  border-image-repeat: repeat;
+  pointer-events: none;
   z-index: 9999;
 }
-
 
 h1 { 
   color: red;
@@ -27,7 +26,7 @@ h1 {
 }
 
 h2 {
-  color: lightcoral; 
+  color: lightcoral;
   font-size: 5px;
 }
 
@@ -35,3 +34,4 @@ p {
   color: pink;
   margin-left: 15px;
 }
+```
