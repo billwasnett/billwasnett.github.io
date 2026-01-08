@@ -15,7 +15,7 @@ body::before {
   border-style: solid;
   border-width: 40px;
 
-  border-image-source: url("/assets/bill1.jpg");
+  border-image-source: url("/assets/rsz_1rsz_bill1.jpg");
   border-image-slice: 1;
   border-image-repeat: repeat;
   border-image-width: 40px;
