@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url('invertbill1.png');
+  background-image: url('/assets/invertbill1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
