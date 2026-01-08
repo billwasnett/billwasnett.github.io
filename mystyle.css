@@ -1,4 +1,4 @@
-```css
+
 body {
   margin: 0;
   background-image: url('wp.jpg');
@@ -11,11 +11,15 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
+
   border-style: solid;
-  border-width: 60px;
+  border-width: 40px;
+
   border-image-source: url("bill1.jpg");
-  border-image-slice: 80;
+  border-image-slice: 1;
   border-image-repeat: repeat;
+  border-image-width: 40px;
+
   pointer-events: none;
   z-index: 9999;
 }
