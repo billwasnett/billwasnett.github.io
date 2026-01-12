@@ -8,12 +8,13 @@ body {
 
 
 h1 { 
-  color: red;
+  color: lightcoral;
+  font-size: 50px;
 }
 
 h2 {
   color: lightcoral;
-  font-size: 5px;
+  font-size: 50px;
 }
 
 p {
