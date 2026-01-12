@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-image: url('/assets/invertbill1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+
+  background-image:
+    url("/assets/rsz_1rsz_bill1.jpg"),
+    url("/assets/rsz_1rsz_bill1.jpg"),
+    url("/assets/rsz_1rsz_bill1.jpg"),
+    url("/assets/rsz_1rsz_bill1.jpg");
+
+  background-repeat:
+    repeat-x,
+    repeat-x,
+    repeat-y,
+    repeat-y;
+
+  background-position:
+    top left,
+    bottom left,
+    top left,
+    top right;
+
+  background-size:
+    auto 40px,
+    auto 40px,
+    40px auto,
+    40px auto;
+}
+
+h1 { 
+  color: red;
+  margin-left: 20px;
+}
+
+h2 {
+  color: lightcoral;
+  font-size: 5px;
+}
+
+p {
+  color: pink;
+  margin-left: 50px;
+}
+
+  
+div {
+  background-color: grey;
+  width: 500px;
+  padding: 25px;
+  margin: 300px;
+  border: 2px solid lightcoral
+}
