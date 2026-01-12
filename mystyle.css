@@ -52,3 +52,12 @@ p {
   color: pink;
   margin-left: 50px;
 }
+
+  
+div {
+  background-color: grey;
+  width: 500px;
+  padding: 25px;
+  margin: 300px;
+  border: 2px solid lightcoral
+}
