@@ -6,37 +6,6 @@ body {
   background-size: 100% 100%;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9999;
-
-  background-image:
-    url("/assets/rsz_1rsz_bill1.jpg"),
-    url("/assets/rsz_1rsz_bill1.jpg"),
-    url("/assets/rsz_1rsz_bill1.jpg"),
-    url("/assets/rsz_1rsz_bill1.jpg");
-
-  background-repeat:
-    repeat-x,
-    repeat-x,
-    repeat-y,
-    repeat-y;
-
-  background-position:
-    top left,
-    bottom left,
-    top left,
-    top right;
-
-  background-size:
-    auto 40px,
-    auto 40px,
-    40px auto,
-    40px auto;
-}
 
 h1 { 
   color: red;
